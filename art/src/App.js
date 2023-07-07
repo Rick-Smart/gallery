@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="App">
         <App_header />
-        <App_tester />
+        <App_footer />
       </div>
     </>
   );
