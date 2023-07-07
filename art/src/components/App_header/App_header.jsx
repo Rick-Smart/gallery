@@ -1,10 +1,16 @@
-import React from 'react'
+import React from "react";
 import "./App_header.css";
+
+import Button from "@mui/material/Button";
 
 function App_header() {
   return (
-    <div>Header</div>
-  )
+    <>
+      <Button variant="text" disabled={true}>
+        Button
+      </Button>
+    </>
+  );
 }
 
-export default App_header
+export default App_header;
