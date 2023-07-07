@@ -12,6 +12,7 @@ function App() {
     <>
       <div className="App">
         <App_header />
+        <App_tester />
       </div>
     </>
   );
