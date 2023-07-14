@@ -13,6 +13,8 @@ import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemText from "@mui/material/ListItemText";
 import Avatar from "@mui/material/Avatar";
 
+import App_icon from "../App_icon/App_icon";
+
 export default function FixedBottomNavigation() {
   const [value, setValue] = useState(0);
   const [messages, setMessages] = useState(messageExamples);
@@ -29,6 +31,7 @@ export default function FixedBottomNavigation() {
 
   return (
     <Box sx={{ pb: 7 }}>
+      <App_icon iconName={"cloud"} iconColor={"blue"} iconSize={25} />
       <CssBaseline />
       {displayReviews ? (
         <List sx={{ position: "fixed", bottom: 50, left: 0, right: 0 }}>
